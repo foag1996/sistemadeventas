@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^systemufpso\.edusystems\.es$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.systemufpso\.edusystems\.es$
+RewriteRule ^/?$ "https\:\/\/systemufpso\.edusystems\.es\/public" [R=301,L]
+
